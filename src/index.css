@@ -10,25 +10,26 @@ body{
     background-color: white;
 }
 
-/*li{*/
-/*    list-style: none;*/
-/*    cursor: pointer;*/
-/*    position: relative;*/
-/*}*/
+li{
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
 
-/*li:hover::before{*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    height: 4px;*/
-/*    background-color: #2a68ff;*/
-/*    right: 0;*/
-/*    color: #2a68ff;*/
-/*}*/
+li:hover::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #2a68ff;
+    right: 0;
+    bottom: -10px;
+    color: #2a68ff;
+}
 
-/*.icon{*/
-/*    cursor: pointer;*/
-/*}*/
+.icon{
+    cursor: pointer;
+}
 
 /*.card{*/
 /*    background: #000;*/
