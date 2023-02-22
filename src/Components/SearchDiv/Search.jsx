@@ -66,11 +66,11 @@ const Search = () => {
       <div className={"secDiv flex items-center gap-10 justify-center"}>
         <div className={"singleSearch flex items-center gap-2"}>
           <label
-            htmlFor={"relevance"}
+            htmlFor={"type"}
             className={"text-[#808080] font-semibold cursor-pointer"}
-            Sort
-            By
-          ></label>
+          >
+            Sort By :
+          </label>
           <select
             name=""
             id="relevance"
@@ -86,10 +86,8 @@ const Search = () => {
           <label
             htmlFor={"level"}
             className={"text-[#808080] font-semibold cursor-pointer"}
-            Sort
-            By
           >
-            Level:
+            Type :
           </label>
           <select
             name=""
@@ -102,6 +100,27 @@ const Search = () => {
             <option value="">Part Time</option>
           </select>
         </div>
+        <div className={"singleSearch flex items-center gap-2"}>
+          <label
+            htmlFor={"level"}
+            className={"text-[#808080] font-semibold cursor-pointer"}
+          >
+            Level:
+          </label>
+          <select
+            name=""
+            id="level"
+            className={"bg-white rounded-[3px] px-4 py-1"}
+          >
+            <option value="">Senior</option>
+            <option value="">Beginner</option>
+            <option value="">Intermediate</option>
+            <option value="">Advocate</option>
+          </select>
+        </div>
+        <span className={"text-[#a1a1a1] cursor-pointer hover:text-black"}>
+          Clear All
+        </span>
       </div>
     </div>
   );
