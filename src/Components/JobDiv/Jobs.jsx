@@ -6,12 +6,82 @@ const Data = [
   {
     id: 1,
     image: logo,
-    title: "Web Developer",
+    title: "Software Eng",
     time: "Now",
-    location: "India",
+    location: "Delhi",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
     company: "Google inc.",
+  },
+  {
+    id: 2,
+    image: logo,
+    title: "UI Designer",
+    time: "1hr",
+    location: "Kolkata",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Google inc.",
+  },
+  {
+    id: 3,
+    image: logo,
+    title: "UX Designer",
+    time: "2hr",
+    location: "Kolkata",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Google inc.",
+  },
+  {
+    id: 4,
+    image: logo,
+    title: "UX Designer",
+    time: "2hr",
+    location: "Kolkata",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Google inc.",
+  },
+  {
+    id: 5,
+    image: logo,
+    title: "Software Eng",
+    time: "2hr",
+    location: "Bangalore",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Microsoft inc.",
+  },
+  {
+    id: 6,
+    image: logo,
+    title: "UX Designer",
+    time: "2hr",
+    location: "Kolkata",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Google inc.",
+  },
+  {
+    id: 7,
+    image: logo,
+    title: "UX Designer",
+    time: "2hr",
+    location: "Kolkata",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Microsoft",
+  },
+  {
+    id: 8,
+    image: logo,
+    title: "UX Designer",
+    time: "2hr",
+    location: "Kolkata",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima?",
+    company: "Meta inc.",
   },
 ];
 
