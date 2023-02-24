@@ -129,7 +129,7 @@ const Footer = () => {
         }
       >
         <a href="https://www.linkedin.com/in/subc/">
-          Made With Love With Vite and React by Subham Chowdhury
+          Made With Vite and React by Subham Chowdhury
         </a>
       </h6>
     </div>
