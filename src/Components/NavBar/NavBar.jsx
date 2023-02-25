@@ -26,4 +26,5 @@ function NavBar() {
     </div>
   );
 }
+
 export default NavBar;
